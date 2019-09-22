@@ -1,0 +1,13 @@
+package PollProgram;
+import java.util.Scanner;
+public class PollProgram {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		String issues [] = new String [5];
+		issues[0] = ("mdwaadwm");
+		System.out.printf(issues[0]);
+
+	}
+
+}

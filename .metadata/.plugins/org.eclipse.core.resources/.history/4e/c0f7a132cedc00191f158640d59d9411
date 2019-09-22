@@ -1,0 +1,31 @@
+package bmiCalc;
+import java.util.Scanner;
+import java.lang.Math;
+
+public class bmiCalc {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		int formulaSelector; 
+		double bmi;double weightPounds;double heightInches;double weightKilos;double heightMeters;
+		
+		
+		System.out.printf("Are you using freedom units? (Pounds and Inches) (1 for yes 2 for no) ");
+		formulaSelector = scnr.nextInt();
+		
+		if(formulaSelector == 1) {
+			System.out.printf("How much do you weigh? ");
+			weightPounds = scnr.nextDouble();
+			System.out.printf("How tall are you? ");
+			heightInches = scnr.nextDouble();
+			
+			bmi = (703 * weightPounds) / (Math.pow(heightInches, 2)); 
+			System.out.print(bmi);
+		}
+		
+		
+		
+		
+	}
+
+}

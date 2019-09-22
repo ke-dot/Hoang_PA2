@@ -1,0 +1,12 @@
+package bmiCalc;
+import java.util.Scanner;
+
+public class bmiCalc {
+
+	public static void main(String[] args) {
+		System.out.printf("Are you using freedom units? (Pounds and Inches) (1 for yes 2 for no ");
+		
+		
+	}
+
+}

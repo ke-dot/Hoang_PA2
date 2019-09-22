@@ -1,0 +1,13 @@
+package com.DecryptData.eclipse;
+import java.util.Scanner;
+
+public class DecryptData {
+	Scanner scnr = new Scanner(System.in);
+	int data; 
+	
+	System.out.@printf("Enter a 4 digit integer you would like to decrypt. ")
+	data = scnr.nexrInt();
+	
+	
+
+}
