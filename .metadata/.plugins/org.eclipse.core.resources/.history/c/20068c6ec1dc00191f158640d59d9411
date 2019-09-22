@@ -1,7 +1,0 @@
-package com.EncryptData.eclipse;
-public class EncryptData {
-	public static void main(String[] args) {
-		System.out.printf("Hi my name is rocky and i like r6");
-	
-   }
-}
